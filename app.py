@@ -9,8 +9,7 @@ def mul(a,b):
 
 def div(a,b):
   if b==0:
-    print("ERROR : Division By Zero")
-    return
+    return "ERROR : Division By Zero"
   return a/b;
 
 if __name__ == "__main__":
